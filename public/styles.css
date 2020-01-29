@@ -1,0 +1,57 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.background-page {
+  background-color: #595959;
+  padding: 20px;
+}
+
+.background-content {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.content {
+  width: 500px;
+}
+
+.profile {
+  width: 250px;
+}
+
+.flex1 {
+  display: flex;
+}
+
+.profile-pic {
+  max-width: 250px;
+}
+
+.background-profile {
+  background-color: #1a1a1a;
+  color: #cccccc;
+}
+.background-profile div {
+  padding: 10px 20px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.list-style {
+  list-style-type: none;
+}
+.list-style span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

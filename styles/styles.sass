@@ -1,0 +1,38 @@
+
+@use "color"
+
+%flex
+    display: flex
+    flex-direction: column
+#page
+    max-width: 800px
+    margin: 0 auto
+.background-page
+    background-color: color.$background-color
+    padding: 20px
+.background-content
+    background-color: color.$profile-color
+    padding: 20px
+.flex
+    @extend %flex
+.content
+    width: 500px
+.profile
+    width: 250px
+.flex1
+    display: flex
+.profile-pic
+    max-width: 250px
+.background-profile
+    background-color: color.$background-nav
+    color: color.$paragraph-color
+    div
+        padding: 10px 20px
+.name
+    font-size: 40px
+.list-style
+    list-style-type: none
+    span
+        font-weight: bold
+        font-size: 20px
+
